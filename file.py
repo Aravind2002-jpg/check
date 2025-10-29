@@ -33,7 +33,7 @@
 num = [20.5, 50.5, 30.0, 10.5, 55.0, 200.9, 60.9, 80.9, 70.9, 79.9, 60.0]
 
 average = sum(num) / len(num)
-print(average)
+print(average) - (average)
 for number in num:
     print(f"for {number} {number - average}")
 
